@@ -78,11 +78,11 @@ src/
    ```
 3. Run migrations:
    ```bash
-   npm run migrate
+   npm run knex -- migrate:latest
    ```
 4. Run seeds:
    ```bash
-   npm run seed
+   npm run knex -- seed:run
    ```
 5. Start the server:
    ```bash
